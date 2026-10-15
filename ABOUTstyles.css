@@ -1,0 +1,99 @@
+section.skill{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  margin-top: 100px;
+  padding-left: 100px;
+  width: 500px;
+  color:rgb(5, 5, 5)
+}
+.skill{
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  border: 5px solid  rgba(255,255,255,0.5);
+  border-radius: 300px;
+  font-family: "Federant", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  width: 200px;
+  margin-left: 30px;
+  height: 290px;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.5) 
+}
+section.bio{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 1300px;
+  height: 540px;
+  margin-top: 0px;
+  padding-left: 350px;
+  color:rgb(5, 5, 5) 
+}
+.bio{
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  border: 5px solid  rgba(255,255,255,0.5);
+  border-radius: 300px;
+  font-family: "Federant", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  padding-right: 150px;
+  margin-left: -300px;
+  width: -100px;
+  height: 200px;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.5)
+}
+section.profile-image{ 
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  color:rgb(5, 5, 5)
+}
+.profile-image{
+  width: 50%;
+}
+section.profile-info{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding-top: 50px;
+  margin-left: -800px;
+  margin-right: 600px;
+  margin-top: 30px;
+  padding-bottom: 130px;
+  padding-left: 50px;
+  color:rgb(5, 5, 5)
+}
+.profile-info{
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  border: 10 px solid  rgba(255,255,255,0.5);
+  border-radius: 20px;
+  font-size: 20px;
+  width: 280px;
+  padding-right: 250px;
+  margin-left: 300px;
+  margin-bottom: 100px;
+  height: 250px;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.5)
+}
+main{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 20px;
+}
+.BG{
+  background-image: url("aboutImg.jpg");
+  height: 115vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;  
+}

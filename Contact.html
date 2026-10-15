@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <title>STUDENT PROFILE</title>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CONTACTstyles.css">
+        <link rel="stylesheet" href="navbar.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="BG">
+
+            <header>
+               <img class="imgLogo" src="NM_Logo.png" alt="logo">
+               <nav>
+                   <ul class="item">         
+                           <li><a href="index.html">Home</a></li>
+                           <li><a href="about.html">About</a></li>
+                           <li><a href="Education.html">Education</a></li>
+                           <li><a href="project.html">Project</a></li>
+                           <li class="active"><a href="contact.html">Contact</a></li>
+                       </ul>   
+               </nav>
+           </header>
+           <section>
+
+               <form class="center" style="padding-top: 50px; ">
+                   <fieldset style="padding-left: 100px;padding-top:20px;padding-bottom: 25;padding-right: 50px; border: 1px solid #ccc; border-radius: 5px; width: 30%;">
+                       <legend>Contact Me</legend>
+       
+                           <label for="fname">Name</label><br>
+                           <input type="text" id="fname" name="fname" placeholder="Enter your name"><br><br>
+                           <label for="email">Email</label><br>
+                           <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+                           <label for="subject">Subject</label><br>
+                           <input type="text" id="subject" name="subject" placeholder="Enter the subject">
+                           <br>
+                           <br>
+                           <label for="message">Message</label><br>
+                           <textarea name="message" rows="10" cols="60" placeholder="Enter your message"></textarea>
+       
+                           <br>
+                           <br>
+       
+                           <button onclick="alert('Message was sent!')" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; cursor: pointer;">Send Your Message</button>            
+                   </fieldset>
+               </form> 
+           </section>
+        </div>                   
+    </body>
+</html>

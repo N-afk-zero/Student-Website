@@ -1,0 +1,29 @@
+table, th, td {
+  border:1px solid black;
+  margin: 100px;
+  text-align: center;
+  font-family: "Federant", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px; 
+}
+th {
+  background-color: #2596be;
+  color: white;
+  width: 500px;
+}
+td {
+  background-color: #f2f2f2;
+}
+td{
+  font-size: 18px;
+}
+.BG{
+   background-image: url("bg2.jpg");
+    height: 115vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    
+}
+
